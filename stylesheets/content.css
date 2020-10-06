@@ -24,6 +24,16 @@ article p, article blockquote, article li { margin-top: 29px; font-size: 20px; l
 }
 article blockquote { font-style: italic;
 }
+article blockquote::before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: black;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -20px;
+}
 article img { display: block; width: 1020px; margin: 79px auto 0;
 }
 article img + h2 { margin-top: 79px;
