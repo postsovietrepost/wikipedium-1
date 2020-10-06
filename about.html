@@ -8,10 +8,17 @@
       body {
         width: 1440px;
         margin: 0 auto;
-        /* background: white; */
-        background: url("images/1440.jpg");
+        background: white;
         height: 3252px;
         display: block;
+      }
+      body::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        background: url("images/1440.jpg");
       }
       html {
         background: #bbb;
