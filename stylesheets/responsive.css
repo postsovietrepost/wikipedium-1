@@ -3,13 +3,87 @@
 		display: none;
 	}
 }
-@media all and (max-width: 1020px) {
+@media all and (max-width: 1024px) {
 	article img { width: 100%; }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 article > * { width: calc(100% - 40px); }
+article h1, h2, h3, p {padding-left: 16px;}
+article p {font-size: 22px;}
+article h1 + p {margin-bottom: 5px;}
+article h1 {padding-top: 23px; padding-bottom: 24px; line-height: 45px; font-size: 38px;}
+article img {margin-top: 43px;}
+article blockquote ::before {left: -5px;}
+article ul {padding-left: 17px;}
+body {height: 3300px;}
 }
-@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-body { min-width: 320px; }
-article > * { width: calc(100% - 50px); }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	article > * { width: calc(100% - 40px); }
+	article h1, h2, h3, p {padding-right: 16px;}
+	article p {font-size: 22px;}
+	article h1 + p {margin-bottom: 10px;}
+	article h1 {padding-top: 23px; padding-bottom: 24px; line-height: 45px; font-size: 38px;}
+	article img {margin-left: 0px; width: 100%; }
+	article blockquote ::before {left: -5px;}
+	article ul {padding-left: 17px;}
+	body {height: 3300px; width: 1300px;}
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+body {height: 3300px; width: 900px;}
+article > * {width: calc(100% - 40px);}
+article h1, h2, h3, p {padding-left: 20px;}
+article p {font-size: 28px;}
+article h1 + p {margin-bottom: 10px;}
+article h1 {padding-top: 10px; padding-left: 20px; padding-bottom: 20px; line-height: 70px; font-size: 75px;}
+article img {width:100%; padding-right: 30px; }
+article blockquote {padding-left: 40px; font-size: 25px; border-left: solid 10px;}
+article ul {padding-left: 24px;}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+article blockquote {padding-left: 40px; font-size: 25px; border-left: solid 5px;}
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape) {
+	body {height: 3300px; width: 1300px;}
+	article > * {width: calc(100% - 40px);}
+	article h1, h2, h3, p {padding-left: 20px;}
+	article p {font-size: 20px;}
+	article h1 + p {margin-bottom: 10px;}
+	article h1 {padding-top: 10px; padding-left: 20px; padding-bottom: 20px; line-height: 70px; font-size: 40px;}
+	article img {width:1100px; margin-left: -190px; }
+	article blockquote {padding-left: 20px; font-size: 25px; border-left: solid;}
+	article ul {padding-left: 24px;}
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait) {
+	body {height: 3300px; width: 1300px;}
+	article > * {width: calc(100% - 40px);}
+	article h1, h2, h3, p {padding-left: 20px;}
+	article p {font-size: 20px;}
+	article h1 + p {margin-bottom: 10px;}
+	article h1 {padding-top: 10px; padding-left: 20px; padding-bottom: 20px; line-height: 70px; font-size: 40px;}
+	article img {width:1100px; margin-left: -190px; }
+	article blockquote {padding-left: 20px; font-size: 25px; border-left: solid;}
+	article ul {padding-left: 24px;}
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape){
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait){
+}
+
+@media only screen and (min-device-width: 1920px) and (max-device-width: 3072px) and (orientation: portrait) {
+	article > * { width: calc(100% - 40px); }
+	article h1, h2, h3, p {padding-right: 16px;}
+	article p {font-size: 60px;}
+	article h1 + p {margin-bottom: 10px;}
+	article h1 {padding-top: 23px; padding-bottom: 24px; line-height: 45px; font-size: 38px;}
+	article img {margin-left: -100px;}
+	article blockquote ::before {left: -5px;}
+	article ul {padding-left: 17px;}
+	body {height: 3300px; width: 1300px;}
+}
 }
