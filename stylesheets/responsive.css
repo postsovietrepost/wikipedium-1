@@ -31,14 +31,10 @@ body {height: 3300px;}
 	body {height: 3300px; width: 1300px;}
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
-<<<<<<< HEAD
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
 body {height: 3300px; width: 900px;}
-=======
-body {height: 3300px; width: 700px;}
->>>>>>> f3ceccbe61252d0fdb8a9f04dee92a96080c508c
 article > * {width: calc(100% - 40px);}
 article h1, h2, h3, p {padding-left: 20px;}
 article p {font-size: 28px;}
@@ -48,9 +44,16 @@ article img {width:100%; padding-right: 30px; }
 article blockquote {padding-left: 40px; font-size: 25px; border-left: solid 10px;}
 article ul {padding-left: 24px;}
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
 article blockquote {padding-left: 40px; font-size: 25px; border-left: solid 5px;}
-<<<<<<< HEAD
+body {height: 3300px; width: 900px;}
+article > * {width: calc(100% - 40px);}
+article h1, h2, h3, p {padding-left: 20px;}
+article p {font-size: 28px;}
+article h1 + p {margin-bottom: 10px;}
+article h1 {padding-top: 10px; padding-left: 20px; padding-bottom: 20px; line-height: 70px; font-size: 75px;}
+article img {width:100%; padding-right: 30px; }
+article ul {padding-left: 24px;}
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape) {
@@ -66,12 +69,9 @@ article blockquote {padding-left: 40px; font-size: 25px; border-left: solid 5px;
 }
 @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait) {
 	body {height: 3300px; width: 1300px;}
-=======
-
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape) {
 	body {height: 3300px; width: 1280px;}
->>>>>>> f3ceccbe61252d0fdb8a9f04dee92a96080c508c
 	article > * {width: calc(100% - 40px);}
 	article h1, h2, h3, p {padding-left: 20px;}
 	article p {font-size: 20px;}
@@ -86,11 +86,8 @@ article blockquote {padding-left: 40px; font-size: 25px; border-left: solid 5px;
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait){
 }
 
-<<<<<<< HEAD
 @media only screen and (min-device-width: 1920px) and (max-device-width: 3072px) and (orientation: portrait) {
-=======
 @media only screen and (min-device-width: 1920px) and (max-device-width: 3072px) {
->>>>>>> f3ceccbe61252d0fdb8a9f04dee92a96080c508c
 	article > * { width: calc(100% - 40px); }
 	article h1, h2, h3, p {padding-right: 16px;}
 	article p {font-size: 60px;}
