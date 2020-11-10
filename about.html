@@ -2,6 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width">
+    <meta property="og:type" content="article">
+<meta property="og:url" content="postsovietrepost.github.io">
+<meta property="og:title" content="About">
+<meta property="og:description" content="О проекте">
+<meta property="og:image" content="">
+    <meta name="viewport" content="width=device-width">
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
@@ -90,6 +96,9 @@
         background: black;
         border-color: black;
       }
+      @media all and (max-width: 1024px) {
+      	article img { width: 100%; }
+      }
       @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
       article > * { width: calc(100% - 40px); }
     }
@@ -106,6 +115,9 @@
     }
     @media all and (min-device-width: 768px) and (max-device-width: 1024px) {
       article > * { width: calc(100% - 80px); }
+    }
+    @media all and (max-width: 320px) {
+    article > * { width: calc(100% - 40px); }
     }
   }
     </style>
